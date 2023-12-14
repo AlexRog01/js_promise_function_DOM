@@ -1,0 +1,3 @@
+/* eslint-disable max-len */var e=document.querySelector("body");function n(e,n){return new Promise(function(t,c){e.addEventListener(n,function(){t("It was ".concat(n," on the element: ").concat(e.nodeName,", id: ").concat(e.id))})})}var t=function(n){e.insertAdjacentHTML("beforeend",'<div class="message">'.concat(n,"</div>"))},c=document.getElementById("login"),o=document.getElementById("password"),d=document.getElementById("submit");n(c,"click").then(t),n(o,"click").then(t),n(d,"click").then(t),n(c,"input").then(t),n(o,"input").then(t),n(c,"blur").then(t),n(o,"blur").then(t),n(d,"blur").then(t);//# sourceMappingURL=index.c70fdda7.js.map
+
+//# sourceMappingURL=index.c70fdda7.js.map
